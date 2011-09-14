@@ -1,0 +1,39 @@
+The class updates vim plugins from git. It is useful with vim pathogen extension.
+
+Usage:
+
+create a default config file and add a plugin repo:
+
+updater.php add <plugin-name> <git url>
+
+
+Remove a repo from config:
+
+updater.php remove <plugin-name> 
+
+
+List the available repos:
+
+updater.php listconfig
+
+
+Get the plugin first:
+
+update.php get <plugin-name>
+
+
+Get all plugin with to the default pathogen folder:(.vim/bundle)
+
+update.php getall
+
+
+Update only one repos:
+
+update.php update <plugin-name>
+
+
+Update all plugin repos:
+
+update.php updateall
+
+
